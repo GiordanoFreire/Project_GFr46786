@@ -3,7 +3,7 @@ Student ID: 300346786
 Date: November 26th 2021 Fall
 
 
-// -------------- web pages for research ----------------------//
+// ------ web pages for research --- //
 
 https://www.w3schools.com/colors/colors_names.asp
 https://www.w3schools.com/jsref/event_onclick.asp
@@ -11,7 +11,7 @@ https://www.youtube.com/
 https://developer.mozilla.org/en-US/docs/Learn
 https://javascript.info/
 
-// -------------- books for research --------------------------//
+// ------ books for research -------//
 
 Names: Dean, John, 1962- author.
 Title: Web programming with HTML5, CSS, and JavaScript / John Dean, PhD,
@@ -19,12 +19,10 @@ associate professor of computer science, Park University-Parkville Campus,
 Department of Computer Science and Information Systems.
 Description: Burlington, Massachusetts: Jones & Bartlett Learning, 2017. |
 
-// -------------------- images and media ---------------------//
+// ------ images and media -------//
 
 All images and media used here are from Debora`s iPhone.
 
-//------------- link for video presentation ------------------//
+//------- link for video presentation ----------//
 
 https://youtu.be/ahsogSJL-hM
-
-// ------ repository link and your project website address ---//
