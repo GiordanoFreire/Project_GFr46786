@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*-------fixed styles of the web page-------------- */
+
+header{
+    background-color: snow;      
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFEBEE;    
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+}
+
+img[id^="doceriaDB_logo"]{
+    width: 25%;    
+}
+
+.header_intro{  
+    font-size: larger;  
+    text-align: center;  
+    vertical-align: center;
+    flex: 1;
+    color: rgb(173, 133, 29)
+}
+
+#socialmediaButtons{
+    padding-right: 23px;
+}
+
+.socialMedia{
+    max-width: 25px;
+    max-height: 25px;
+    padding: 1px;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    line-height: 2em;
+    border-top: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke; 
+    border-bottom: 1px solid whitesmoke;   
+    border-radius: 5px 5px 0 0;
+    border-color: rgb(173, 133, 29);        
+}
+
+nav > ul > li > a:hover{
+    background-color: rgb(233, 184, 207);
+    color: darkseagreen;
+}
+
+.menu{
+    display:block;
+    text-decoration: none;
+    color:rgb(173, 133, 29);
+    background-color: #FFEBCD;    
+}
+
+footer{    
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 0;
+}
+
+.email{
+    color: black
+}
+
+/*------- styles for 1st page ---------*/
+
+article.containerFirstPage{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 15px;
+}
+
+.photo_section{
+    margin-left: 25px;    
+    flex: 1;    
+}
+
+img[id^="debora_photo"]{
+    width: 100%; 
+    margin-right: 1%;   
+}
+
+.text_section{
+    margin-left: 1%;    
+    flex: 3;
+    padding-right: 25px;       
+}
+
+.text_section p{
+    text-align: justify;    
+}
+
+/*------- styles for 2nd page ---------*/
+
+article.buttonContainer{
+    margin: 0;
+    padding: 0;    
+    flex-wrap: row wrap;    
+}
+
+.menuFieldset{
+    border: 0;
+}
+
+p{
+    text-align: center;
+    color: rgb(173, 133, 29);
+    margin-top: 10px;
+}
+
+.inputContainer{
+    text-align: center;
+    margin: 50px;
+    margin-top: 10px;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+}
+
+span{
+    text-align: center;
+}
+
+.spanContainer{
+    display: flex;
+    width: 80%;        
+}
+
+input[type="button"]{    
+    height: 40px;
+    width: 50%;
+    margin: 5px;
+    background-color: #FFEBCD;
+    color: rgb(173, 133, 29);
+    font-size: larger;       
+}
+
+.flexContainer {
+    display: flex;
+    align-items: stretch;    
+}
+
+div[type="outputText"]{    
+    text-align: center;
+    color: rgb(173, 133, 29);
+    font-size: larger;    
+}
+
+.flexContainer{
+    padding-bottom: 20px;
+}
+
+.flexContainer > div {
+    color: rgb(173, 133, 29);
+    margin: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.containerPhotos{
+    display: flex;
+    align-items: center;    
+    flex-wrap: row wrap;
+    padding-left: 8%;    
+}
+
+.photoClass{
+    flex-basis: 30%;
+    height: 300px;       
+}
+
+.photoClass:hover {
+    flex-basis: 70%;
+    transition: 100ms;
+}
+
+img[id^="photo"]{
+    width: 50%;    
+}
+
+/*------- styles for 3rd page ---------*/
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.videoBox01{
+    text-align: right;
+    height: 100px;
+}
+
+.videoBox01, .videoBox02{
+    width: 50%;
+    color: rgb(173, 133, 29);
+    padding: 20px;
+}
+
+.informationText_thirdPage{
+    display: flex;
+    width: 80%;
+    padding-left: 20%;    
+}
+
+#textDiv{
+    color: rgb(173, 133, 29);
+    padding-bottom: 10px;    
+}
+
+.page3Form{    
+    flex-direction: row;
+}
+
+fieldset > div{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1px;    
+}
+
+fieldset > div > *{
+    flex: 1 1 198px
+}
+
+fieldset{
+    margin-bottom: 5px;
+}
+
+.infoCont{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.validateButtons{
+    display: flex;
+}
+
+fieldset > div{
+    display: flex;
+    flex-flow: row wrap;       
+}
+
+legend{
+    padding: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(173, 133, 29);
+    border-radius: 3px;
+    color: snow;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin: 3px 2%;
+    width: 45%;
+    color:rgb(173, 133, 29);
+    background-color: #FFEBCD;
+}

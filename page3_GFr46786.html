@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Giordano">
+    <link rel="stylesheet" href="../Project_GFr46786/css/style.css">
+    <script src="../Project_GFr46786/script/script.js"></script>
+    <title>Doceria by Debora Balbino</title>
+</head>
+<body>
+    <header>
+        <section class="header_container">
+            <img id="doceriaDB_logo" src="../Project_GFr46786/images/doceriaDB_logo.jpeg" alt="doceriaDB_logo">
+            <div class="header_intro">"May our sweetness be contagious"</div>
+            <div id="socialmediaButtons">
+                <a href="http://www.instagram.com/doceriadb" target="_blank"><img class="socialMedia"  src="../Project_GFr46786/images/instagram.png" alt="instagramImage"></a>
+                <a href="http://www.facebook.com/doceriapordeborabalbino" target="_blank"><img class="socialMedia"  src="../Project_GFr46786/images/facebook.png" alt="facebookImage"></a>
+            </div>
+            
+        </section>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a class="menu" href="../Project_GFr46786/index.html">Home</a></li>
+            <li><a class="menu" href="../Project_GFr46786/page2_GFr46786.html">Menu</a></li>
+            <li><a class="menu" href="../Project_GFr46786/page3_GFr46786.html">E-book</a></li>
+        </ul>
+    </nav>
+
+    <div class="videoContainer">
+        <div class="videoBox01">See a sample of my work<br> on the video aside: </div>
+        <div class="videoBox02">
+            <video height="320" width="260" controls>
+                <source src="../Project_GFr46786/media/cookieBar.mp4" type="video/mp4">
+                Delicious Oreo Bar
+            </video>
+        </div>
+    </div>
+
+    <article class="informationText_thirdPage">
+        <div id="textDiv">In the process of helping my costumers, I would like to know what kind of recipes they like.<br><br> Please write down your doubts and wishes so that i can try to understand you and make a great e-book with all the recipes.<br><br> Thank you so much for your attention and time spent here.<br><br> I wish you a wonderful and sweet day. =)</div>
+        <form class="page3Form" action="" method="GET" 
+            enctype="application/x-www-form-urlencoded">   
+
+            <fieldset>
+                <legend>Your Information</legend>
+                <div>
+                    <label for="fullName" id="fullName" style="color: rgb(173, 133, 29);">Full Name:</label>
+                    <input type="text" name="fullName" id="fullName" placeholder="Maria.Pierre" required>                        
+                </div>
+
+                <div>
+                    <label for="emailAdress" id="emailAdress" style="color: rgb(173, 133, 29);">Email:</label>
+                    <input type="email" name="emailAddress" id="emailAdress" placeholder="maria@gmail.com" required>                        
+                </div>
+
+                <fieldset class="infoCont">
+                    <legend>Your thoughts and wishes</legend>
+                        <div>  
+                            <textarea name="collectedInformation" id= "collectedInformation" placeholder="We would like a beautiful wedding cake!!" required></textarea>
+                        </div> 
+                </fieldset>
+            </fieldset>  
+
+            <div class="validateButtons">
+                <input type="submit" name="submit" value="Send"
+                    onclick="runValidate(this.form);">
+                <input type="reset" name="clear" value="Clear">
+            </div>
+        </form>
+    </article>
+
+    <footer>
+        <hr>
+        <p><small>Surrey - BC | <a class="email" href="mailto:deboracbalbino@gmail.com">deboracbalbino@gmail.com</a></small></p>
+
+    </footer>
+    
+</body>
+</html>
+
+
